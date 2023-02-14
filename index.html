@@ -2,15 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1270, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <style type="text/tailwindcss">
         @layer utilities {
             .container {
-                max-width: 1240px;
+                width: 1270px;
                 padding: 100px 50px;
                 margin: 0 auto;
+            }
+
+            .container_w {
+                gap: 100px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                overflow: hidden;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
             }
 
             .box {
@@ -45,7 +56,7 @@
         }
     </style>
 </head>
-<body class="bg-[#EBF3F2]">
+<body class="bg-[#EBF3F2] min-w-[1270px]">
 <section>
     <div class="container flex gap-[50px] max-md:flex-wrap">
         <div class="box group hover:bg-[#35C759] rounded-tl-[90px] rounded-[40px] flex-col items-center ease-in duration-300">
@@ -88,7 +99,7 @@
         </div>
     </div>
 </section>
-<section class="flex flex-col">
+<section class="flex flex-col mb-[100px]">
     <div class="container flex justify-center">
         <div class="flex flex-col items-center gap-[10px] w-[421px]">
             <h1 class="text-center text-[42px] text-[#164629] font-[400]">Наши <span
@@ -98,33 +109,28 @@
                 США или по всему миру в несколько кликов.</p>
         </div>
     </div>
-    <div class="flex flex-row gap-[160px] ml-[-141px] mb-[100px]">
+    <div class="container_w">
         <img class="" src="static/image/partners/image1.png" alt="">
         <img src="static/image/partners/image2.png" alt="">
         <img src="static/image/partners/image3.png" alt="">
         <img src="static/image/partners/image4.png" alt="">
         <img src="static/image/partners/image5.png" alt="">
-    </div>
-    <div class="flex flex-row gap-[160px] mb-[100px] ml-[-200]">
         <img src="static/image/partners/image6.png" alt="">
         <img src="static/image/partners/image7.png" alt="">
         <img src="static/image/partners/image8.png" alt="">
         <img src="static/image/partners/image9.png" alt="">
         <img class="" src="static/image/partners/image10.png" alt="">
-    </div>
-    <div class="flex flex-row gap-[160px] mb-[100px] ml-[-100px]">
         <img src="static/image/partners/image11.png" alt="">
         <img src="static/image/partners/image12.png" alt="">
         <img src="static/image/partners/image13.png" alt="">
         <img src="static/image/partners/image14.png" alt="">
         <img class="" src="static/image/partners/image15.png" alt="">
-    </div>
-    <div class="flex flex-row gap-[160px] mb-[100px] ml-[-50px]">
         <img src="static/image/partners/image16.png" alt="">
         <img src="static/image/partners/image17.png" alt="">
         <img src="static/image/partners/image18.png" alt="">
         <img src="static/image/partners/image19.png" alt="">
         <img class="" src="static/image/partners/image20.png" alt="">
+
     </div>
 </section>
 <section>
