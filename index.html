@@ -1,160 +1,133 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1270, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .container {
-                padding: 100px 50px;
-                margin: 0 auto;
-            }
-
-            .container_w {
-                gap: 100px;
-                display: flex;
-                justify-content: space-between;
-                width: 100%;
-                overflow: hidden;
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-            }
-
-            .box {
-                display: flex;
-                background: white;
-                max-width: 595px;
-                padding: 40px;
-                gap: 30px;
-            }
-
-            .box2 {
-                display: flex;
-                background: white;
-                max-width: 595px;
-                padding: 150px 40px 50px 40px;
-                gap: 50px;
-            }
-
-            .btn {
-                background: #35C759;
-                display: flex;
-                align-items: flex-end;
-                color: white;
-                font-weight: 400;
-                gap: 8px;
-                padding: 15px 30px;
-                text-align: center;
-                letter-spacing: -0.02em;
-                border-radius: 38px;
-            }
-
-        }
-    </style>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Green Ligh</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-<body class="bg-[#EBF3F2] min-w-[1270px]">
-<section>
-    <div class="container flex gap-[50px] flex-nowrap justify-center">
-        <div class="box group hover:bg-[#35C759] rounded-tl-[90px] rounded-[40px] flex-col items-center ease-in duration-300">
+<body>
+<div class="container">
+    <div class="cards">
+        <div class="card">
             <img src="static/image/image1.png" alt="">
-            <div class="flex flex-col items-center gap-[10px]">
-                <h1 class="text-center text-[32px] text-[#164629] font-[400] group-hover:text-[#ffffff]">Получите <span
-                        class="text-[#35C759] group-hover:text-[#ffffff] font-bold">лучшие условия</span></h1>
-                <p class="text-center text-[16px] text-[#5B5B5B] font-[400] group-hover:text-[#ffffff]">Отправляйте
-                    деньги
-                    через ACH, Wire или SWIFT в
-                    США или по всему миру в несколько кликов.</p>
-            </div>
-            <a href="#" class="btn group-hover:bg-[#ffffff] group-hover:text-[#164629]">
-                Оставить заявку
-                <svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-                    <path class="fill-[#ffffff] group-hover:fill-[#164629]"
-                          d="M11 13.5L9.95 12.4125L12.6125 9.75H3.5V8.25H12.6125L9.95 5.5875L11 4.5L15.5 9L11 13.5Z"
+            <h1 class="title_card">Получите <span>лучшие условия </span></h1>
+            <p>Отправляйте деньги через ACH, Wire или SWIFT в США или по всему миру в несколько кликов.</p>
+            <a class="btn_card" href="">Оставить заявку
+                <svg width="13" height="10" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 9.5L6.95 8.4125L9.6125 5.75H0.5V4.25H9.6125L6.95 1.5875L8 0.5L12.5 5L8 9.5Z"
                     />
                 </svg>
             </a>
         </div>
-        <div class="box group hover:bg-[#35C759] rounded-[40px] flex-col items-center ease-in duration-300">
+        <div class="card">
             <img src="static/image/image2.png" alt="">
-            <div class="flex flex-col items-center gap-[10px]">
-                <h1 class="text-center text-[32px] text-[#164629] font-[400] group-hover:text-[#ffffff]">Получите <span
-                        class="text-[#35C759] group-hover:text-[#ffffff] font-bold">лучшие условия</span></h1>
-                <p class="text-center text-[16px] text-[#5B5B5B] font-[400] group-hover:text-[#ffffff]">Отправляйте
-                    деньги
-                    через ACH, Wire или SWIFT в
-                    США или по всему миру в несколько кликов.</p>
-            </div>
-            <a href="#" class="btn group-hover:bg-[#ffffff] group-hover:text-[#164629]">
-                Оставить заявку
-                <svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-                    <path class="fill-[#ffffff] group-hover:fill-[#164629]"
-                          d="M11 13.5L9.95 12.4125L12.6125 9.75H3.5V8.25H12.6125L9.95 5.5875L11 4.5L15.5 9L11 13.5Z"
-                    />
+            <h1 class="title_card">Получите <span>лучшие условия </span></h1>
+            <p>Отправляйте деньги через ACH, Wire или SWIFT в США или по всему миру в несколько кликов.</p>
+            <a class="btn_card" href="">Оставить заявку
+                <svg width="13" height="10" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 9.5L6.95 8.4125L9.6125 5.75H0.5V4.25H9.6125L6.95 1.5875L8 0.5L12.5 5L8 9.5Z"/>
                 </svg>
             </a>
         </div>
     </div>
-</section>
-<section class="flex flex-col mb-[100px]">
-    <div class="container flex justify-center">
-        <div class="flex flex-col items-center gap-[10px] w-[421px]">
-            <h1 class="text-center text-[42px] text-[#164629] font-[400]">Наши <span
-                    class="text-[#35C759] font-bold">партнеры</span></h1>
-            <p class="text-center text-[16px] text-[#5B5B5B] font-[400]">Отправляйте деньги
-                через ACH, Wire или SWIFT в
-                США или по всему миру в несколько кликов.</p>
-        </div>
-    </div>
-    <div class="container_w">
-        <img class="" src="static/image/partners/image1.png" alt="">
-        <img src="static/image/partners/image2.png" alt="">
-        <img src="static/image/partners/image3.png" alt="">
-        <img src="static/image/partners/image4.png" alt="">
-        <img src="static/image/partners/image5.png" alt="">
-        <img src="static/image/partners/image6.png" alt="">
-        <img src="static/image/partners/image7.png" alt="">
-        <img src="static/image/partners/image8.png" alt="">
-        <img src="static/image/partners/image9.png" alt="">
-        <img class="" src="static/image/partners/image10.png" alt="">
-        <img src="static/image/partners/image11.png" alt="">
-        <img src="static/image/partners/image12.png" alt="">
-        <img src="static/image/partners/image13.png" alt="">
-        <img src="static/image/partners/image14.png" alt="">
-        <img class="" src="static/image/partners/image15.png" alt="">
-        <img src="static/image/partners/image16.png" alt="">
-        <img src="static/image/partners/image17.png" alt="">
-        <img src="static/image/partners/image18.png" alt="">
-        <img src="static/image/partners/image19.png" alt="">
-        <img class="" src="static/image/partners/image20.png" alt="">
+</div>
 
+<section class="partners">
+    <div class="title_partners">
+        <h1 class="text_partners">Наши <span>партнеры</span></h1>
+        <p>Отправляйте деньги через ACH, Wire или SWIFT в США или по всему миру в несколько кликов.</p>
     </div>
-</section>
-<section>
-    <div class="container flex gap-[50px] flex-nowrap justify-center ">
-        <div class="box2 group hover:bg-[#35C759] rounded-[40px] flex-col items-center ease-in duration-300 relative mb-[100px]">
-            <img src="static/image/card.png" class="absolute top-[-140px]" alt="">
-            <div class="flex flex-col items-center gap-[20px]">
-                <h1 class="text-center text-[32px] text-[#164629] font-[400] group-hover:text-[#ffffff] w-[220px]"><span
-                        class="text-[#35C759] group-hover:text-[#ffffff] font-bold">Зачем</span> нужно
-                    в две строки</h1>
-                <p class="text-center text-[16px] text-[#5B5B5B] font-[400] group-hover:text-[#ffffff]">Группа Компаний
-                    «Зеленый свет» создана, чтобы оказывать качественные финансовые услуги.</p>
+    <div class="sliders_partners">
+        <!--        Track1-->
+        <div class="slider_track">
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image1.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image2.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image3.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image4.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image5.png" alt="">
             </div>
         </div>
-        <div class="box2 group hover:bg-[#35C759] rounded-[40px] flex-col items-center ease-in duration-300 relative mb-[100px]">
-            <img src="static/image/card.png" class="absolute top-[-140px]" alt="">
-            <div class="flex flex-col items-center gap-[20px]">
-                <h1 class="text-center text-[32px] text-[#164629] font-[400] group-hover:text-[#ffffff] w-[220px]"><span
-                        class="text-[#35C759] group-hover:text-[#ffffff] font-bold">Зачем</span> нужно
-                    в две строки</h1>
-                <p class="text-center text-[16px] text-[#5B5B5B] font-[400] group-hover:text-[#ffffff]">Группа Компаний
-                    «Зеленый свет» создана, чтобы оказывать качественные финансовые услуги.</p>
+        <!--        Track2-->
+        <div class="slider_track">
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image6.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image7.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image8.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image9.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image10.png" alt="">
+            </div>
+        </div>
+        <!--        Track3-->
+        <div class="slider_track">
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image11.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image12.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image13.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image14.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image15.png" alt="">
+            </div>
+        </div>
+        <div class="slider_track">
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image16.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image17.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image18.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image19.png" alt="">
+            </div>
+            <div class="slide">
+                <img class="slider_logo" src="static/image/partners/image20.png" alt="">
             </div>
         </div>
     </div>
 </section>
+<div class="container">
+    <div class="cards_services">
+        <div class="card_services">
+            <img class="card_img" src="static/image/card.png" alt="">
+            <h1 class="title_card"><span>Зачем</span> нужно в две строки</h1>
+            <p>Группа Компаний «Зеленый свет» создана, чтобы оказывать качественные финансовые услуги.</p>
+        </div>
+        <div class="card_services">
+            <img class="card_img" src="static/image/card.png" alt="">
+            <h1 class="title_card"><span>Зачем</span> нужно в две строки</h1>
+            <p>Группа Компаний «Зеленый свет» создана, чтобы оказывать качественные финансовые услуги.</p>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

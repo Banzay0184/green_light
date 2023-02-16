@@ -1,0 +1,111 @@
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 595px;
+    padding: 40px;
+    background-color: #ffff;
+    border-radius: 90px 30px 30px 30px;
+    transition: 0.3s;
+
+    img {
+      border-radius: 70px 30px 30px 30px;
+    }
+
+    .title_card {
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #164629;
+
+      span {
+        color: #35C759;
+        font-style: normal;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+
+      color: #5B5B5B;
+    }
+
+    .btn_card {
+      color: #ffff;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 30px;
+      gap: 8px;
+      background: #35C759;
+      border-radius: 38px;
+
+      svg {
+        fill: #ffff;
+      }
+    }
+
+
+  }
+
+  .card:hover {
+    background-color: #35C759;
+    border-radius: 30px 30px 30px 30px;
+
+    img {
+      border-radius: 30px 30px 30px 30px;
+    }
+
+    .title_card {
+      color: #ffff;
+
+      span {
+        color: #ffff;
+      }
+    }
+
+    p {
+      color: #ffff;
+    }
+
+    .btn_card {
+      background-color: #ffff;
+      color: #164629;
+
+      svg {
+        fill: #164629;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      border-radius: 45px 20px 20px 20px;
+
+      img {
+        border-radius: 35px 15px 15px 15px;
+      }
+    }
+  }
+}
